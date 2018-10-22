@@ -1,0 +1,12 @@
+.device_frame {
+   width: 90%; 
+   background-color: blue;
+  }
+
+  @media only screen and (max-width: 768px) {
+          /* For mobile phones: */
+      .device_frame {
+          width: 100%;
+          background-color: yellow;
+          }
+  }
